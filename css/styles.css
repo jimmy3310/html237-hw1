@@ -1,0 +1,100 @@
+.container{
+  width: 960px;
+  
+  margin: 0 auto;
+}
+*, ul, li, h1, h2, h3, .main li{font-family:微軟正黑體; font-size:15px; font-weight:bold;}
+ul{list-style:none; padding:0; margin:0}
+a {text-decoration:none; color:#000;}
+a:hover{ color:#777;}
+h1{float: left;}
+header ul{list-style:none;}
+header li{float: left;margin:50px 0 0 60px;}
+#log {float: right; margin:50px 0 0 0;  }
+#log a {color:#999; }
+#log a:hover {color:#000; }
+
+section{ clear:both;}
+
+/*按鈕 128x33, #fe8511 -> #dc5608
+*/
+
+section{background: url(../images/shadow.png) no-repeat center bottom;height: 600px; position: relative;  font-size: 20px;}
+
+section .phone{position:absolute; top: 30px; left: 160px;}
+
+h2{font-size: 40px;}
+.price{font-size: 24px;}
+/*
+SD 卡：http://i.imgur.com/c2Z5au0.png
+電池：http://i.imgur.com/NFwOBqW.png
+耳機：http://i.imgur.com/stm47RT.png
+醜醜手機殼：http://i.imgur.com/aKkhCy6.png
+
+大字：40px
+大字框：70x185
+*/
+.main{position: absolute;
+  top: 80px;
+  left: 560px;}
+
+button{
+  padding: 5px 40px;
+  border: 0;
+  border-radius: 100px;
+  margin:30px 0 ;
+  color: #fff;
+  background: -webkit-linear-gradient(top, #fe8511 0%,#dc5608 100%); /* Chrome10+,Safari5.1+ */
+  background: linear-gradient(to bottom, #fe8511 0%,#dc5608 100%); /* W3C */
+}
+
+footer{
+  
+  margin: 1em auto;
+}
+
+h3,footer ul, .cover{
+  float: left;
+}
+.main li{ margin:5px 0 0 0; font-size:20px;}
+.nt{ margin:30px 0 0 0;}
+h3{
+  font-size: 40px;
+  border: 3px #ccc double;
+  padding: 40px 15px;
+  width: 1em;
+  line-height: 1.3;
+  margin: 0 0 0 40px;
+  margin-right: 16px;
+}
+
+footer ul{
+  padding: 0;
+  margin:0 10px 0 30px;
+
+  list-style-type: none;
+ 
+}
+
+footer li figure{
+ padding:10px 0;
+  border-top-width:0;
+}
+figure{
+  font-size: 13px;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 8px 16px;
+}
+footer li:first-child figure{
+  border-top-width: 1px;
+  
+}
+
+.note{
+  clear: both;
+  text-align: center;
+  padding:10px;
+  
+}
+.note span{ color:#666;}
